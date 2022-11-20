@@ -1,0 +1,158 @@
+.unlist1{
+    border: solid 2px black;
+    border-radius: 10%;
+    display: inline-flex;
+}
+.shadow {
+    background: lightcoral;
+    width: 100px;
+    height: 100px;
+    border-radius: 700%;
+    margin: 15px;
+    border: 3px solid black;
+}
+.circle {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.circle:hover {
+    transform: translate(/*eje x*/30px, /*EJE Y*/-20px);
+}
+.shadow1 {
+    background: lightcoral;
+    width: 100px;
+    height: 100px;
+    border-radius: 700%;
+    margin: 15px;
+    border: 3px solid black;
+}
+.circle1 {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.circle1:hover {
+    transform: translate(/*eje x*/-30px, /*EJE Y*/20px);
+}
+/*SECTION 2*/
+.unlist2 {
+   display: inline-flex;
+   margin: 5px;
+   border: 3px solid black;
+   border-radius: 20px;
+   padding: 20px;
+}
+.squeare {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,69,1) 35%, rgba(0,212,255,1) 100%);
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    margin: 10px;
+}
+.squeare:hover {
+    transform: scale(1.4);
+}
+li .squeare1 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,69,1) 83%, rgba(0,212,255,1) 100%);
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    margin: 10px;
+    float: left;
+}
+.squeare1:hover {
+    transform: scale(/*EJE X---->*/0.5, /*EJE Y---->*/1.2);
+}
+/*----------------------SECTION 3----------------------------------*/
+.unlist3 {
+    border: solid 2px black;
+    border-radius: 10%;
+    display: inline-flex;
+}
+.ejemplo {
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    margin: 10px;
+    float: left;
+}
+.ejemplo:hover {
+    transform: skewX(/*LAS MEDIDAS DE SKEW SON EN GRADOS POR ESO SE PONE DEG*/20deg);
+    border: 2px solid black;
+}
+.ejemplo1 {
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(72,160,56,1) 100%);
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    margin: 10px;
+    float: left;
+}
+.ejemplo1:hover {
+    transform: skewY(/*LAS MEDIDAS DE SKEW SON EN GRADOS POR ESO SE PONE DEG*/20deg);
+    border: 2px solid black;
+}
+/*-------------------SECTION 4--------------------------*/
+.unlist4 {
+    border: solid 2px black;
+    border-radius: 10%;
+    display: inline-flex;
+}
+.ej {
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    width: 120px;
+    height: 100px;
+    border-radius: 40%;
+    margin: 10px;
+    float: left;
+}
+.ej:hover {
+    transform: rotate(/*ROTACION HACIA A LA DERECHA*/35deg);
+}
+.ejex {
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(164,114,124,1) 100%);
+    width: 120px;
+    height: 100px;
+    border-radius: 40%;
+    margin: 10px;
+    float: left;
+}
+.ejex:hover {
+    transform: rotate(/*ROTACION HACIA LA IZQUIERDA*/-45deg);
+}
+/*---------------SECTION 5-------------*/
+.unlist5 {
+    border: solid 2px black;
+    border-radius: 10%;
+    display: inline-flex;
+}
+.rot {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(126,114,49,1) 100%);
+    width: 120px;
+    height: 100px;
+    border-radius: 40%;
+    margin: 10px;
+    float: left;
+    transform-origin: left top;
+}
+.rot:hover {
+    transform: rotate(/*ROTACION HACIA A LA DERECHA*/75deg);
+}
+.rot1 {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(126,114,49,1) 100%);
+    width: 120px;
+    height: 100px;
+    border-radius: 40%;
+    margin: 10px;
+    float: left;
+    transform-origin: right bottom;
+}
+.rot1:hover {
+    transform: rotate(/*ROTACION HACIA A LA DERECHA*/75deg);
+}

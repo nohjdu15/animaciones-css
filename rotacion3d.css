@@ -1,0 +1,98 @@
+/*-------------primera section--------*/
+.unlist1{
+    border: solid 3px black;
+    border-radius: 10%;
+    display: inline-flex;
+    margin: 10px;
+    padding: 25px;
+}
+li {
+    margin-right: 30px;
+    padding: 10px;
+}
+.squa {/*EL PADRE SIEMPRE VA A SER RELATIVO*/
+    position: relative;
+    width: 120px;
+    height: 100px;
+    border: 5px solid rgb(92, 91, 91);
+    margin: 10px;
+    perspective: 100px;
+    border-radius: 3px;
+}
+.son {/*EL HIJO SIEMPRE VA A SER ABSOLUTE*/
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    background-color: aquamarine;
+    opacity: 0.5;
+    transform-style: preserve-3d;
+    transform: rotateX(35deg);
+    border: 2px solid black ;
+    border-radius: 3px;
+
+}
+.squa1 {/*EL PADRE SIEMPRE VA A SER RELATIVO*/
+    position: relative;
+    width: 120px;
+    height: 100px;
+    border: 5px solid rgb(92, 91, 91);
+    margin: 10px;
+    perspective: 70px; /*vista hacia adelante*/
+    border-radius: 3px;
+}
+.son1 {/*EL HIJO SIEMPRE VA A SER ABSOLUTE*/
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    background-color: rgb(120, 124, 123);
+    opacity: 0.4;
+    transform-style: preserve-3d;
+    transform: rotateY(35deg);/*perspectiva lateral izq*/
+    border: 2px solid black ;
+    border-radius: 3px;
+}
+.squa2 {/*EL PADRE SIEMPRE VA A SER RELATIVO*/
+    position: relative;
+    width: 120px;
+    height: 100px;
+    border: 5px solid rgb(92, 91, 91);
+    margin: 10px;
+    perspective: 65px; /*vista hacia adelante*/
+    border-radius: 3px;
+}
+.son2 {/*EL HIJO SIEMPRE VA A SER ABSOLUTE*/
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    background-color: rgb(173, 144, 110);
+    opacity: 1;/*A MENOR NUMERO MENOR OPACIDAD*/
+    transform-style: preserve-3d;
+    transform: rotatex(10deg);/*perspectiva hacia el piso */
+    border: 2px solid black ;
+    border-radius: 3px;
+}
+/*-------------------*SECTION 2*-------------------------*/
+.card {
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+.face {
+    width: 100%;
+    height: 100%;
+    background:rgb(120, 124, 123);
+    border-radius: 10px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.face.front {
+    background: pink;
+}
+.face.back {
+    background: palegreen;
+    transform: rotateX(180deg);
+}
